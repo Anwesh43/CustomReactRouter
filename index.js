@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom'
 import CustomRouter from './CustomRouter'
 import Route from './Route'
 const Home = ()=>{
-    return <div>Home is where you can code</div>
+    var style = {border:'1px solid black'}
+    return <div style={style}>Home is where you can code</div>
 }
 const Index = () => {
-    return <div>Index page</div>
+    var style = {border:'1px solid red'}
+    return <div style={style}>Index page</div>
 }
 const Hello = ()=>{
-    return <div>Hello World</div>
+    var style = {border:'1px solid green'}
+    return <div style={style}>Hello World</div>
 }
 class MyComponent extends Component {
     constructor(props) {
